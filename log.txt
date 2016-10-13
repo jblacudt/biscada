@@ -13286,3 +13286,24 @@ Error Code: 0
 2016-10-12 19:50:10,953 [INFO ] bi.controles.ServConsultaDinamica:404		- se extrajeron 0 alarmas que les faltaba alguna fecha solicitada
 2016-10-12 19:50:10,953 [INFO ] bi.controles.ServConsultaDinamica:369		- ...   ...   ...   ...   ...   ...   ...   ...   ...   ...
 
+2016-10-13 15:18:49,555 [INFO ] comunes.controles.Principal:64		- 
+
+2016-10-13 15:18:49,574 [INFO ] comunes.controles.Principal:65		- ################# Comienza aplicacion #################
+2016-10-13 15:18:50,443 [DEBUG] comunes.controles.Principal:137		- heap reservado = 57.5 MB
+2016-10-13 15:18:50,450 [DEBUG] comunes.controles.Principal:138		- heap libre = 50.586219787597656 MB
+2016-10-13 15:18:50,451 [DEBUG] comunes.controles.Principal:139		- heap maximo = 844.5 MB
+
+2016-10-13 15:18:50,986 [INFO ] bi.controles.GestorBI:81		- se crea marco para panel consultas
+2016-10-13 15:18:51,042 [INFO ] comunes.controles.EMFSingleton:85		- se crea EMF por primera vez
+2016-10-13 15:18:57,688 [INFO ] bi.controles.GestorBI:84		- se lanza pantalla de consultas
+2016-10-13 15:19:27,097 [INFO ] bi.entidades.ComponenteConsulta:178		- colectando datos desde IU
+2016-10-13 15:19:27,124 [INFO ] bi.controles.ServConsultaDinamica:337		- ...   ...   ...   ...   ...   ...   ...   ...   ...   ...
+2016-10-13 15:19:27,124 [INFO ] bi.controles.ServConsultaDinamica:339		- agregando predicados...
+2016-10-13 15:19:27,136 [INFO ] bi.controles.ServConsultaDinamica:342		- agregando condiciones consulta...
+2016-10-13 15:19:27,201 [INFO ] bi.controles.ServConsultaDinamica:345		- estableciendo valores de parametros...
+2016-10-13 15:19:27,205 [INFO ] bi.controles.ServConsultaDinamica:458		- SELECT ID_ALARMA, ACK_USUARIO, ATRIBUTO, CLASE, FECHA_ACK, FECHA_FIN, FECHA_INICIO, ID_ESTACION, IDENTIFICACION, SEVERIDAD, ZONA, ID_ARCHIVO_DBF, ID_EQUIPO_EN_SITIO, ID_FAMILIA, ID_SITIO, ID_SUCESO FROM alarma WHERE ((FECHA_FIN - FECHA_INICIO) >= ?)
+2016-10-13 15:19:41,334 [INFO ] bi.controles.ServConsultaDinamica:365		- consulta finalizada. se trajeron 62723 resultados
+
+2016-10-13 15:19:41,365 [INFO ] bi.controles.ServConsultaDinamica:404		- se extrajeron 0 alarmas que les faltaba alguna fecha solicitada
+2016-10-13 15:19:41,368 [INFO ] bi.controles.ServConsultaDinamica:369		- ...   ...   ...   ...   ...   ...   ...   ...   ...   ...
+
